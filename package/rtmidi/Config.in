@@ -1,0 +1,7 @@
+config BR2_PACKAGE_RTMIDI
+        bool "rtmidi"
+        select BR2_PACKAGE_ALSA_LIB
+        select BR2_INSTALL_LIBSTDCPP
+        default y
+        help
+          A C++ library for MIDI interfaces
