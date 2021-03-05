@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-MIDICHIMES_VERSION:= v0.3
+MIDICHIMES_VERSION:= v0.5
 MIDICHIMES_SITE:= https://github.com/MarinB87/MidiChimes
 MIDICHIMES_SITE_METHOD:= git
 MIDICHIMES_DEPENDENCIES+= rtmidi
